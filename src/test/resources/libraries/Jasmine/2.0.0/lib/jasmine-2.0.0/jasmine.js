@@ -515,7 +515,7 @@ getJasmineRequireObj().Env = function(j$) {
       options.catchException = catchException;
       options.clearStack = options.clearStack || clearStack;
 
-      new j$.QueueRunner(options).execute();
+        debug.log('jasmine.js',518,JSON.stringify(options));new j$.QueueRunner(options).execute();
     };
 
     var topSuite = new j$.Suite({
@@ -1493,7 +1493,7 @@ getJasmineRequireObj().QueueRunner = function() {
     for(iterativeIndex = recursiveIndex; iterativeIndex < length; iterativeIndex++) {
       var fn = fns[iterativeIndex];
       if (fn.length > 0) {
-        return attemptAsync(fn);
+        debug.log('jasmine.js',1496,fn);return attemptAsync(fn);
       } else {
         attemptSync(fn);
       }
@@ -1507,7 +1507,7 @@ getJasmineRequireObj().QueueRunner = function() {
 
     function attemptSync(fn) {
       try {
-        fn.call(self.userContext);
+        debug.log('jasmine.js',1510,JSON.stringify(fn));fn.call(self.userContext);
       } catch (e) {
         handleException(e);
       }
@@ -1705,7 +1705,7 @@ getJasmineRequireObj().Suite = function() {
     }
 
     function wrapChildAsAsync(child) {
-      return function(done) { child.execute(done); };
+        debug.log('jasmine.js',1708,child);return function(done) { child.execute(done); };
     }
   };
 
