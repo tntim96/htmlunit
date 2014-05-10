@@ -10,6 +10,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -69,7 +70,9 @@ public class Jasmine200Test extends WebDriverTestCase {
                     fail("Test runs too long (longer than " + runTime / 1000 + "s)");
                 }
             }
-            assertThat(status.getText(), equalTo("5 specs, 0 failures"));
+            Object glob = ((JavascriptExecutor) webdriver).executeScript("return debug.getMsg();");
+            System.out.println(glob.toString().replaceAll(",","\n,"));
+            //assertThat(status.getText(), equalTo("5 specs, 0 failures"));
         }
         catch (final Exception e) {
             e.printStackTrace();

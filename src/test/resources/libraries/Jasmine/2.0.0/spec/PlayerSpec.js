@@ -1,18 +1,18 @@
 describe("Player", function() {
-  var player;
+  debug.log('PlayerSpec.js',2);var player;
   var song;
 
   beforeEach(function() {
-    player = new Player();
+    debug.log('PlayerSpec.js-beforeEach',6);player = new Player();
     song = new Song();
   });
 
   it("should be able to play a Song", function() {
-    player.play(song);
+    debug.log('PlayerSpec.js-should be able to play a Song',11);player.play(song);
     expect(player.currentlyPlayingSong).toEqual(song);
 
     //demonstrates use of custom matcher
-    expect(player).toBePlaying(song);
+    expect(player).toBePlaying(song);debug.log('PlayerSpec.js-should be able to play a Song',15);player.play(song);
   });
 
   describe("when song has been paused", function() {

@@ -7,6 +7,22 @@
     <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.0.0/jasmine_favicon.png">
     <link rel="stylesheet" type="text/css" href="lib/jasmine-2.0.0/jasmine.css">
 
+    <script type="text/javascript">
+        <!--
+        var debug = (function () {
+            var msg = [];
+            return {
+                log: function (location, line, extra) {
+                    msg.push(location + ':' + line + (extra !== undefined ? ' ' + extra : ''));
+                },
+                getMsg: function () {
+                    return JSON.stringify(msg).replace(/,/g,'\n,');
+                }
+            };
+        }());
+        //-->
+    </script>
+
     <script type="text/javascript" src="lib/jasmine-2.0.0/jasmine.js"></script>
     <script type="text/javascript" src="lib/jasmine-2.0.0/jasmine-html.js"></script>
     <script type="text/javascript" src="lib/jasmine-2.0.0/boot.js"></script>
