@@ -1,0 +1,25 @@
+"["PlayerSpec.js:2"
+,"jasmine.js:518 {\"fns\":[null]}"
+,"jasmine.js:1496 function (done) { runnable.execute(done); }"
+,"jasmine.js:1708 [object Object]"
+,"jasmine.js:518 {\"fns\":[null]}"
+,"jasmine.js:1496 function (done) { child.execute(done); }"
+,"jasmine.js:1708 [object Object]"
+,"jasmine.js:518 {\"fns\":[null]}"
+,"jasmine.js:1496 function (done) { child.execute(done); }"
+,"jasmine.js:518 {\"fns\":[null
+,null
+,null]}"
+,"jasmine.js:1498 function () {\r\n  jasmine.addMatchers({\r\n    toBePlaying: function () {\r\n      return {\r\n        compare: function (actual
+, expected) {\r\n          var player = actual;\r\n\r\n          return {\r\n            pass: player.currentlyPlayingSong === expected && player.isPlaying\r\n          }\r\n        }\r\n      };\r\n    }\r\n  });\r\n}"
+,"jasmine.js:1510"
+,"jasmine.js:1498 function () {\r\n    debug.log('PlayerSpec.js-beforeEach'
+,6);player = new Player();\r\n    song = new Song();\r\n  }"
+,"jasmine.js:1510"
+,"PlayerSpec.js-beforeEach:6"
+,"jasmine.js:1498 function () {\r\n    debug.log('PlayerSpec.js-should be able to play a Song'
+,11);player.play(song);\r\n    expect(player.currentlyPlayingSong).toEqual(song);\r\n\r\n    //demonstrates use of custom matcher\r\n    expect(player).toBePlaying(song);debug.log('PlayerSpec.js-should be able to play a Song'
+,15);player.play(song);\r\n  }"
+,"jasmine.js:1510"
+,"PlayerSpec.js-should be able to play a Song:11"
+,"PlayerSpec.js-should be able to play a Song:15"]"

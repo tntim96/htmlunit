@@ -1495,7 +1495,7 @@ getJasmineRequireObj().QueueRunner = function() {
       if (fn.length > 0) {
         debug.log('jasmine.js',1496,fn);return attemptAsync(fn);
       } else {
-        attemptSync(fn);
+        debug.log('jasmine.js',1498,fn);attemptSync(fn);
       }
     }
 
