@@ -283,7 +283,7 @@ jasmineRequire.HtmlSpecFilter = function() {
     var filterPattern = new RegExp(filterString);
 
     this.matches = function(specName) {
-      return filterPattern.test(specName);
+      debug.log('jasmine-html.js',286,specName+' '+filterPattern.toString());return filterPattern.test(specName);
     };
   }
 

@@ -628,7 +628,7 @@ getJasmineRequireObj().Env = function(j$) {
 
     this.xdescribe = function(description, specDefinitions) {
       var suite = this.describe(description, specDefinitions);
-      suite.disable();
+      debug.log('jasmine.js',631,'suite.disable()');suite.disable();
       return suite;
     };
 
@@ -656,7 +656,7 @@ getJasmineRequireObj().Env = function(j$) {
       runnableLookupTable[spec.id] = spec;
 
       if (!self.specFilter(spec)) {
-        spec.disable();
+        debug.log('jasmine.js',659,'spec.disable()');spec.disable();
       }
 
       return spec;

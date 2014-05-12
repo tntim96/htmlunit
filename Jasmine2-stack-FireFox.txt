@@ -1,4 +1,5 @@
 "["PlayerSpec.js:2"
+,"jasmine-html.js:286 Player should be able to play a Song /(?:)/"
 ,"jasmine.js:518 {\"fns\":[null]}"
 ,"jasmine.js:1485 {\"fns\":[null]
 ,\"userContext\":{}}"

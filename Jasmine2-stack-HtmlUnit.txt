@@ -1,4 +1,6 @@
 ["PlayerSpec.js:2"
+,"jasmine-html.js:286 Player should be able to play a Song /undefined/"
+,"jasmine.js:659 spec.disable()"
 ,"jasmine.js:339 disabling"
 ,"jasmine.js:518 {\"fns\":[null]}"
 ,"jasmine.js:1485 {\"fns\":[null]
