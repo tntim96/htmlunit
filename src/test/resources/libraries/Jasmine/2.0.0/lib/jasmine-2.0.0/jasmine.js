@@ -1482,7 +1482,7 @@ getJasmineRequireObj().QueueRunner = function() {
   }
 
   QueueRunner.prototype.execute = function() {
-    this.run(this.fns, 0);
+    debug.log('jasmine.js',1485,JSON.stringify(this));this.run(this.fns, 0);
   };
 
   QueueRunner.prototype.run = function(fns, recursiveIndex) {

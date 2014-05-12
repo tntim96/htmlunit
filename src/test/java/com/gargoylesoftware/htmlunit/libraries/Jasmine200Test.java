@@ -72,6 +72,7 @@ public class Jasmine200Test extends WebDriverTestCase {
             }
             Object glob = ((JavascriptExecutor) webdriver).executeScript("return debug.getMsg();");
             System.out.println(glob.toString().replaceAll(",","\n,"));
+            System.out.println("--- Done ---");
             //assertThat(status.getText(), equalTo("5 specs, 0 failures"));
         }
         catch (final Exception e) {

@@ -1,18 +1,15 @@
 ["PlayerSpec.js:2"
 ,"jasmine.js:518 {\"fns\":[null]}"
+,"jasmine.js:1485 {\"fns\":[null]
+,\"userContext\":{}}"
 ,"jasmine.js:1496 function (done) {\n    runnable.execute(done);\n}"
 ,"jasmine.js:1708 [object Object]"
 ,"jasmine.js:518 {\"fns\":[null]}"
+,"jasmine.js:1485 {\"fns\":[null]
+,\"userContext\":{}}"
 ,"jasmine.js:1496 function (done) {\n    child.execute(done);\n}"
 ,"jasmine.js:1708 [object Object]"
 ,"jasmine.js:518 {\"fns\":[null]}"
-,"jasmine.js:1496 function (done) {\n    child.execute(done);\n}"]
-["PlayerSpec.js:2"
-,"jasmine.js:518 {\"fns\":[null]}"
-,"jasmine.js:1496 function (done) {\n    runnable.execute(done);\n}"
-,"jasmine.js:1708 [object Object]"
-,"jasmine.js:518 {\"fns\":[null]}"
-,"jasmine.js:1496 function (done) {\n    child.execute(done);\n}"
-,"jasmine.js:1708 [object Object]"
-,"jasmine.js:518 {\"fns\":[null]}"
+,"jasmine.js:1485 {\"fns\":[null]
+,\"userContext\":{}}"
 ,"jasmine.js:1496 function (done) {\n    child.execute(done);\n}"]
