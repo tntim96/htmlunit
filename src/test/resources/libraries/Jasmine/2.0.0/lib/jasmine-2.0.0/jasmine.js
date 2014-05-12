@@ -326,7 +326,7 @@ getJasmineRequireObj().Spec = function(j$) {
     }
 
     function complete() {
-      self.result.status = self.status();
+      self.result.status = self.status();debug.log('jasmine.js',329,self.result.status);
       self.resultCallback(self.result);
 
       if (onComplete) {
@@ -336,7 +336,7 @@ getJasmineRequireObj().Spec = function(j$) {
   };
 
   Spec.prototype.disable = function() {
-    this.disabled = true;
+    this.disabled = true;debug.log('jasmine.js',339,'disabling');
   };
 
   Spec.prototype.pend = function() {

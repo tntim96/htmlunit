@@ -1,4 +1,5 @@
 ["PlayerSpec.js:2"
+,"jasmine.js:339 disabling"
 ,"jasmine.js:518 {\"fns\":[null]}"
 ,"jasmine.js:1485 {\"fns\":[null]
 ,\"userContext\":{}}"
@@ -12,4 +13,5 @@
 ,"jasmine.js:518 {\"fns\":[null]}"
 ,"jasmine.js:1485 {\"fns\":[null]
 ,\"userContext\":{}}"
-,"jasmine.js:1496 function (done) {\n    child.execute(done);\n}"]
+,"jasmine.js:1496 function (done) {\n    child.execute(done);\n}"
+,"jasmine.js:329 disabled"]
